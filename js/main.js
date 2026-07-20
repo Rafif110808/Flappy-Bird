@@ -4,7 +4,7 @@ const ctx = canvas.getContext("2d");
 canvas.width = 400;
 canvas.height = 600;
 
-// === IMAGES === 
+// === IMAGES ===
 const bgImg = new Image();
 bgImg.src = "images/flappybirdbg.png";
 

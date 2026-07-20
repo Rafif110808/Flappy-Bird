@@ -14,7 +14,7 @@ let score = 0;
 // Bird
 const birdImg = new Image();
 birdImg.src = "assets/images/flappybird.png";
-const bird = { x: 80, y: 250, width: 40, height: 30 };
+const bird = { x: 80, y: 250, width: 34, height: 24 };
 
 // Physics
 let velocityY = 0;
@@ -147,8 +147,8 @@ function update() {
   context.textAlign = "center";
   context.strokeStyle = "#333";
   context.lineWidth = 4;
-  context.strokeText(score, boardWidth / 2, 60);
-  context.fillText(score, boardWidth / 2, 60);
+  context.strokeText(score, 20, 50);
+  context.fillText(score, 20, 50);
 }
 
 // ---- Events ----
